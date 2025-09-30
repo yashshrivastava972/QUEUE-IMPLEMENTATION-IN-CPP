@@ -108,6 +108,59 @@ The display function shows all elements from front to rear.
 
 # Algorithm:
 
+Algorithm for Queue Implementation Using Array
+
+1. Initialize Queue
+
+Create an array arr[SIZE] to store elements.
+
+Initialize two pointers:
+
+front = -1 (points to the front element)
+
+rear = -1 (points to the last element)
+
+2. Enqueue Operation (Insert Element)
+
+Check if the queue is full:
+
+If rear == SIZE - 1, Queue Overflow, stop.
+
+If the queue is empty (front == -1), set front = 0.
+
+Increment rear by 1.
+
+Insert the new element at arr[rear].
+
+Display confirmation message.
+
+3. Dequeue Operation (Remove Element)
+
+Check if the queue is empty:
+
+If front == -1 or front > rear, Queue Underflow, stop.
+
+Remove the element at arr[front] and display it.
+
+Increment front by 1.
+
+If front > rear (queue becomes empty after deletion), reset front = rear = -1.
+
+4. Display Operation
+
+Check if the queue is empty (front == -1 or front > rear).
+
+If yes, display "Queue is empty".
+
+Otherwise, traverse the array from front to rear and print elements.
+
+5. Main Program
+
+Create an object of the Queue class.
+
+Perform operations: enqueue(), dequeue(), display().
+
+Operations can be repeated as needed.
 
 # Conclusion:
 
