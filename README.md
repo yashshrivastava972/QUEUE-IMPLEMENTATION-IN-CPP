@@ -1,4 +1,4 @@
-# Aim: Queue Implementation.
+# Aim: To Study & Implement Queue Implementation using Array.
 
 # Tool: VS CODE.
 
